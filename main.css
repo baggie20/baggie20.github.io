@@ -1,0 +1,115 @@
+﻿body 
+{
+	background-image: url("images/bats.gif"); 
+	background-repeat: repeat;
+	background-color: white;
+	width: 800px;
+	border-style: solid;
+	border-bottom: 3px black;
+	box-shadow: 10px 10px;
+	margin: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:hover, a:focus 
+{
+	color: green;
+}
+
+/* Header */
+
+title
+{
+	border-style: solid;
+	border-bottom: 3px black;
+	border-color: black;
+}
+
+header
+{	
+	border-style: solid;
+	border-top: 3px black;
+	border-right-style: none;
+	border-left-style: none;
+	border-color: black;
+	background: linear-gradient(to top right, white, orange 75%, black) 
+}
+
+header img 
+{
+	float: left;
+}
+
+header h2
+{	
+	font-size: 225%;
+	text-indent: 25px;
+}
+
+header h3
+{
+	text-indent: 25px;
+}
+
+/* Main */
+
+main h2
+{
+	font size: 125%;	
+}
+
+div7 
+{
+	font-size: 250%;
+}
+
+a 
+{
+    	color: orange;
+}
+
+ul
+{
+	font-weight:bold;
+}
+
+.column
+{
+	float: left;
+}
+
+.left
+{
+	line-height: 1.5;
+	width: 160px;
+	font-weight:bold;
+}
+
+.right
+{
+	width: 74%
+}
+
+.row
+{
+	display: flex;
+}
+
+/* Footer */
+
+footer
+{	
+	border-style: solid;
+	border-bottom: 3px black;
+	border-color: black;
+	border-right-style: none;
+	border-left-style: none;
+	background: linear-gradient(to bottom left, white, orange 75%, black)
+}
+
+footer p
+{	
+	text-align: center;	
+	font-size: 85%;
+}
+
